@@ -20,6 +20,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v4
         with:
-          context: .
-          push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/documenso-custom:latest
+            context: .
+            file: docker/Dockerfile
+            push: true
+            tags: ${{ secrets.DOCKER_USERNAME }}/documenso-custom:latest
