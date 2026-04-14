@@ -35,8 +35,8 @@
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --accent: 41 100% 53% !important; /* Your new orange/yellow hover background */
-    --accent-foreground: 0 0% 100% !important; /* White icons and text */
+    --accent: 33 100% 91% !important; /* Your new light cream/yellow background */
+      --accent-foreground: 222.2 47.4% 11.2% !important; /* Standard dark text for readability */
 
     --destructive: 0 100% 50%;
     --destructive-foreground: 210 40% 98%;
@@ -170,8 +170,8 @@
     --secondary: 0 0% 23.4%;
     --secondary-foreground: 95.08 71.08% 67.45%;
 
-    --accent: 0 0% 27.9% !important; /* Keep the subtle dark hover background */
-    --accent-foreground: 41 100% 53% !important; /* Orange icons and text on dark background */
+    --accent: 0 0% 27.9% !important; /* Keep the subtle dark gray hover background */
+      --accent-foreground: 33 100% 91% !important; /* Your new cream color for the icons/text */
 
     --destructive: 0 87% 62%;
     --destructive-foreground: 0 87% 19%;
