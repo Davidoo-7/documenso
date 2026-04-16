@@ -4,11 +4,11 @@ import { NEXT_PUBLIC_WEBAPP_URL } from '@documenso/lib/constants/app';
 
 export const appMetaTags = (title?: MessageDescriptor) => {
   const description =
-    'Smooth Ops' secure platform for document signing';
+    "Smooth Ops secure platform for document signing";
 
   return [
     {
-      title: title ? `${i18n._(title)} - Documenso` : 'Smooth Ops - David Wayne',
+      title: title ? `${i18n._(title)} - SmoothOps` : 'SmoothOps - David Wayne',
     },
     {
       name: 'description',
@@ -17,7 +17,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     {
       name: 'keywords',
       content:
-        'Smooth Ops' secure platform for document signing.',
+        'SmoothOps secure platform for document signing.',
     },
     {
       name: 'author',
@@ -29,7 +29,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     },
     {
       property: 'og:title',
-      content: 'Smooth Ops - The Founders' Easy Path To Peace & Profit',
+      content: 'SmoothOps - The Founders Easy Path To Peace & Profit',
     },
     {
       property: 'og:description',
